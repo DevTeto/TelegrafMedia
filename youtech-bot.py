@@ -15,7 +15,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await sbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>مرحبًا ، أنا بوت تحويل الصور الي تليجراف ميديا \n يمكنني تحميل الصور أو مقاطع الفيديو إلى تليجراف ميديا. \n تم صناعتي بواسطة @WZAERE \n اضغط على زر المساعدة لمعرفة المزيد حول كيفية استخدامي</b>""",   
+               text="""<b>مرحبًا ، أنا بوت تحويل الصور الي تليجراف ميديا \n يمكنني تحميل الصور أو مقاطع الفيديو إلى تليجراف ميديا. \n تم صناعتي بواسطة @TOPTETO \n اضغط على زر المساعدة لمعرفة المزيد حول كيفية استخدامي</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -50,7 +50,7 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await sbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>حول بوت تليجراف مبديا!</b> \n <b>♞ ⍣ المطور ⍣:</b> <a href="https://t.me/wzaere"> ⧛ SoUrCe Teto</a> \n <b>♞ ⍣ الدعم ⍣:</b> <a href="https://t.me/teto_support">teto Support</a> \n <b>~ @wzaere</b>""",
+               text="""<b>حول بوت تليجراف مبديا!</b> \n <b>♞ ⍣ المطور ⍣:</b> <a href="https://t.me/TOPTETO"> ⧛ SoUrCe Teto</a> \n <b>♞ ⍣ الدعم ⍣:</b> <a href="https://t.me/teto_support">teto Support</a> \n <b>~ @TOPTETO</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
